@@ -22,8 +22,10 @@ a {
     flex: 1 0 auto;
     background-color: #3882f6;
     border-radius: 12%;
+    
     padding: 2px 12px;
     color: white;
+    font-size: 18px;
 }
 
 .header {
@@ -48,7 +50,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 100px 0px;
-    padding: 0px 200px;
+    padding: 40px 200px;
     
 }
 
@@ -75,7 +77,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 200px;
+    padding: 30px 200px;
 }
 
 .card-field {
@@ -84,21 +86,25 @@ a {
     flex: 1 0 1;
   padding: 32px 0px;
   gap: 12px;
-  background-color: #eee;
+  border-color: purple;
   align-items: space-between;
   justify-content: space-between;
 }
 
 .card {
-    border-color: #3882f6;
+    background-color: #3882f6;
     border-radius: 12%;
-    
+    padding: 16px;
+    margin: 16px;
+    width: 45px;
+    height:60px;
+
 }
 
 .quote-field {
     display: flex;
     flex-direction: column;
-    padding: 0px 200px;
+    padding: 60px 200px;
     align-items: center;
     justify-content: center;
     background-color: #e5e7eb;
@@ -118,18 +124,21 @@ a {
     align-items: center;
     padding: 0px 200px;
     background-color: #3882f6;
-    margin: 0px 200px;
+    margin: 30px 200px;
     border-radius: 0%;
+
 }
 
 .footer-left {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     justify-content: left;
+    color: white;
     
 }
 
 .footer-right {
     display: flex;
     justify-content: right;
+    
 }
