@@ -1,13 +1,18 @@
 body {
+    width: 100vw;
     height: 100vh;
     display: flex;
-    flex: 1 1 auto;
+    flex: 1 0 auto;
     flex-direction: column;
     
 }
  
 ul {
     list-style: none;
+}
+
+img {
+    flex-flow: 1;
 }
 
 a {
@@ -17,7 +22,7 @@ a {
     padding: 10px;
 }
 
-.button {
+#signUp {
     display: flex;
     flex: 1 0 auto;
     background-color: #3882f6;
@@ -28,7 +33,15 @@ a {
     font-size: 18px;
 }
 
-.header {
+#dogLogo {
+    background-image: url("./images/dogLogo.jpg");
+    height: 10vh;
+    width: 10vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#header {
     display: flex;
     flex-flow: row nowrap;
     flex: 1 1 auto;
@@ -36,12 +49,13 @@ a {
     align-items: center;
     justify-content: space-between;
     color: white;
-    padding: 0px 200px;
+    padding: 0vh 14vw;
 }
 
-.header-right {
+#header-right {
     display: flex;
     justify-content: right;
+    flex-wrap: nowrap;
     
 }
 
@@ -49,8 +63,7 @@ a {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 100px 0px;
-    padding: 40px 200px;
+    padding: 2.8vw 21.4vh;
     
 }
 
@@ -58,13 +71,13 @@ a {
     color: #f9faf8;
     font-size: 48px;
     font-style: bold;
-    width: 400px;
+    width: 27.95vw;
 }
 
 .sub-text {
     color: #f9faf8;
     font-size: 18px;
-    width: 400px;
+    width: 27.95vw;
 }
 
 .intro-right {
@@ -79,14 +92,16 @@ a {
     align-items: center;
     padding: 30px 200px;
     background-image: url("./images/blue-sleeping-background.jpg");
+    color: white;
 }
 
 .card-row {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-  padding: 32px 0px;
-  gap: 100px;
+  padding: 3.4vh 0vw;
+  gap: 6px;
+  color: azure;
   }
 
 .card-column {
@@ -94,13 +109,13 @@ a {
     flex-flow: column wrap;
     flex: 1 1 auto;
     justify-content: center;
-    padding: 0px 30px;
+    padding: 0vh 2.1vw;
 }
 
 .card {
 
-    width: 151px;
-    height: 202px;
+    width: 12.75vw;
+    height: 29.7vh;
     border: 4px solid #3882f6;
     border-radius: 12%;
     
@@ -110,7 +125,7 @@ a {
 .quote-field {
     display: flex;
     flex-direction: column;
-    padding: 60px 600px;
+    padding: 6.4vh 42vw;
     align-items: center;
     justify-content: center;
     background-color: #e5e7eb;
@@ -128,9 +143,9 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 200px;
+    padding: 0vh 21vw;
     background-color: #3882f6;
-    margin: 70px 200px;
+    margin: 5vh 21vw;
     border-radius: 0%;
 
 }
@@ -147,4 +162,16 @@ a {
     display: flex;
     justify-content: right;
     
+}
+
+/* sign up specific page */
+
+#signUpForm {
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+
+#signUpFocal {
+    background-image: url("./images/blue-sleeping-background.jpg");
 }
