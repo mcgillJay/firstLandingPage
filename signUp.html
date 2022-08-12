@@ -1,4 +1,4 @@
-<html lang="en">!
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,18 +26,49 @@
             
         
         <form action="####" id="signUpForm"></form>
+        <div class="signUpFormRow">
         <div>
             <p>First Name</p>
             <input type="text" name="first name" class="input" id="firstName">
         </div>
+            <div>
+                <p>Last Name</p>
+                <input type="text" name="last name" class="input" id="lastName">
+            </div>
+        </div>
+
+        <div class="signUpFormRow">
+            <div>
+                <p>Email</p>
+                <input type="text" name="Email" class="input" id="Email">
+            </div>
+        </div>
+
+    <div class="signUpFormRow">
         <div>
-            <p>Last Name</p>
-            <input type="text" name="last name" class="input" id="lastName">
+            <p>Password</p>
+            <input type="password" name="password" class="input" id="password">
         </div>
         <div>
-            <p>Email</p>
-            <input type="text" name="Email" class="input" id="Email">
+            <p>Confirm Password</p>
+            <input type="password" name="confirmPassword" class="input" id="confirmPassword">
         </div>
+    </div>
+        <div class="textbox2">
+            <p>Type of pet:</p>
+        </div>
+        <div class="input" data-toggle="buttons">
+            <label class="cBtn btn btn-secondary active" id="btn">
+              <input type="radio" name="options" id="btn" autocomplete="off" checked="" required=""> Dog
+            </label>
+            <label class="input" id="btn">
+              <input type="radio" name="options" id="btn" autocomplete="off"> Cat
+            </label>
+            <label class="input" id="btn">
+              <input type="radio" name="options" id="btn" autocomplete="off"> Hamster
+            </label>
+          </div>
+          <button type="submit" class="btnSubmit">Submit</button>
     </div>
     </div>
     </div>
