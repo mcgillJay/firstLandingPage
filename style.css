@@ -39,6 +39,7 @@ a {
     width: 10vw;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 50%;
 }
 
 #header {
@@ -165,13 +166,27 @@ a {
 }
 
 /* sign up specific page */
+.signUpPage {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.input {
+    padding: 2vh 2vw;
+}
 
 #signUpForm {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+   
     
 }
 
 #signUpFocal {
     background-image: url("./images/blue-sleeping-background.jpg");
+    height: 50vh;
+    width: 50vw;
+    background-size: 100vh 40vw;
 }
