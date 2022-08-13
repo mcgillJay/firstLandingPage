@@ -21,6 +21,7 @@ a {
     font-size: 18px;
     color: grey;
     padding: 10px;
+    white-space: nowrap;
 }
 
 #signUp {
@@ -58,7 +59,7 @@ a {
 #header-right {
     display: flex;
     justify-content: right;
-    flex-wrap: nowrap;
+    flex-wrap: row nowrap;
     
 }
 
@@ -180,7 +181,7 @@ a {
 
 
 #signUpForm {
-    width: vw;
+    height: 60vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-evenly;
@@ -199,10 +200,9 @@ a {
 
 #signUpFocal {
     background-image: url("./images/blue-sleeping-background.jpg");
-    height: 50vh;
     width: 50vw;
-    background-size: 100vh 40vw;
-    height: 63vh;
-    object-fit: contain;
+    background-size: 100vh 50vw;
+   
+    object-fit: cover;
     background-repeat: no-repeat;
 }
